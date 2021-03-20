@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-landscaper-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3006 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "sass": "^1.32.8",
+    "sass-loader": "10.1.1",
+    "transition-group": "^0.0.2",
+    "vue-tiny-slider": "^0.1.39",
+    "vue2-transitions": "^0.3.0"
+  },
+  "devDependencies": {}
+}
