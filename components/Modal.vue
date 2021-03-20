@@ -8,7 +8,6 @@
           class="btn-close"
           @click="close"
         >
-          x fermer
         </button>
       </header>
 
@@ -44,9 +43,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
-
   .modal-backdrop {
     position: fixed;
     top: calc(100%-15em);
@@ -60,10 +56,11 @@ export default {
   }
 
   .responsive {
-  width: 80%;
-  max-width: 800px;
-  height: calc(width*.75);
-  }
+    width: 80%;
+    max-width: 800px;
+    // height: calc(width*.75);
+    height: auto;
+    }
 
   .modal {
     background: #58795a;
@@ -99,7 +96,7 @@ export default {
 
   .btn-close {
     position: absolute;
-    top: 0;
+    top: -8px;
     right: 0;
     border: none;
     font-size: 20px;
@@ -108,6 +105,9 @@ export default {
     font-weight: bold;
     color: black;
     background: transparent;
+    &::before{
+    content:'x';
+    }
   }
 
   .btn-green {
@@ -117,4 +117,13 @@ export default {
     border-radius: 2px;
   }
 
+@media only screen and (min-width: 450px) {
+  .btn-close {
+    &::before{
+    content:'x fermer';
+    }
+  }
+
+
+  }
 </style>

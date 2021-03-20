@@ -24,7 +24,7 @@
         "items": 1,
         "mouseDrag": true,
         "controlsText": ["prec","suiv"],
-        // "nav": false
+        "nav": false
       },
     };
   },
