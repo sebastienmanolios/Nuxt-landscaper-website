@@ -3,7 +3,7 @@
         <!-- :style="thin ? `height: 8em` : ''" -->
 
     <nuxt-link  to="/">
-      <img class="logo" src="img/logo.png" width=288px alt="logo">
+      <img class="logo" src="img/logo.png" alt="logo">
     </nuxt-link>
   
     <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">
@@ -76,6 +76,7 @@ export default {
 
   .logo {
     margin-top: .2em;
+    width: 250px;
   }
 
   .drawer-toggle .bar {

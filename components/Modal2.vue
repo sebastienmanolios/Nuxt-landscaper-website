@@ -1,27 +1,29 @@
 <template>
   <transition name="modal-fade">
+
    <div class="modal-backdrop">
-      <div class="modal">
-        <header class="modal-header">
-        <Slider src/>
+    <div class="modal">
+      <header class="modal-header">
+        <Slider2 src/>
         <button
           type="button"
           class="btn-close"
           @click="close"
         >
         </button>
-        </header>
-      </div>
+      </header>
     </div>
-  </transition>
+  </div>
+    </transition>
+
 </template>
 
 <script>
-import Slider from '@/components/Slider.vue';
+import Slider2 from '@/components/Slider2.vue';
 
 export default {
   components: {
-    Slider
+    Slider2
   },
   methods: {
     close() {
@@ -41,7 +43,7 @@ export default {
   .modal-fade-leave-active {
     transition: opacity .5s ease;
   }
-  
+
   .modal-backdrop {
     position: fixed;
     // top: calc(100%-15em);
