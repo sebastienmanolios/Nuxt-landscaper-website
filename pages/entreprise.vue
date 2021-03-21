@@ -54,7 +54,7 @@
 <style lang="scss" scoped>
 
 .title {
-  height: 12em;
+  height: 13em;
 }
 
 .container {

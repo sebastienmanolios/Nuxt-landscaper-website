@@ -2,14 +2,14 @@
   <div class="sidenav-container">
     <div v-if="isSidebar" class="backdrop" @click="hideSidebar"></div>
 
-      <transition name="slide-side">
+      <!-- <transition name="slide-side"> -->
         <div v-if="isSidebar" class="sidenav">
           <span @click="hideSidebar"></span>
           <app-links
           >
           </app-links>
         </div>
-      </transition>
+      <!-- </transition> -->
     
   </div>
 </template>
@@ -23,15 +23,14 @@ export default {
   },
   methods: {
     hideSidebar() {
-        this.$store.dispatch('nav/toggleSidebar')
+      this.$store.dispatch('nav/toggleSidebar')
     }
   },
 
   computed: {
-
-  isSidebar() {
+    isSidebar() {
       return this.$store.getters['nav/toggleSidebar']
-  }
+    }
   }
 };
 </script>
@@ -72,13 +71,13 @@ export default {
       left: 0;
     }
 
-    .slide-side-enter-active,
-    .slide-side-leave-active {
-      transition: all 0.3s ease-out;
-    }
-    .slide-side-enter,
-    .slide-side-leave-to {
-      transform: translateX(-100%);
-    }
+    // .slide-side-enter-active,
+    // .slide-side-leave-active {
+    //   transition: all 0.3s ease-out;
+    // }
+    // .slide-side-enter,
+    // .slide-side-leave-to {
+    //   transform: translateX(-100%);
+    // }
 
 </style>

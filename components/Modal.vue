@@ -10,19 +10,6 @@
         >
         </button>
       </header>
-
-      <footer class="modal-footer">
-        <!-- <slot name="footer">
-       
-        </slot> -->
-        <button
-          type="button"
-          class="btn-green"
-          @click="close"
-        >
-          Close Modal
-        </button>
-      </footer>
     </div>
   </div>
 </template>
@@ -45,7 +32,8 @@ export default {
 <style lang="scss" scoped>
   .modal-backdrop {
     position: fixed;
-    top: calc(100%-15em);
+    // top: calc(100%-15em);
+    top:0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -96,18 +84,19 @@ export default {
 
   .btn-close {
     position: absolute;
-    top: -8px;
+    top: -10px;
     right: 0;
     border: none;
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
     color: black;
     background: transparent;
     &::before{
-    content:'x';
+      content:'fermer x';
     }
+   
   }
 
   .btn-green {
@@ -115,15 +104,7 @@ export default {
     background: black;
     border: 1px solid #4AAE9B;
     border-radius: 2px;
+    
   }
 
-@media only screen and (min-width: 450px) {
-  .btn-close {
-    &::before{
-    content:'x fermer';
-    }
-  }
-
-
-  }
 </style>

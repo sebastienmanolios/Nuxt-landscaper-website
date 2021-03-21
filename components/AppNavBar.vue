@@ -54,28 +54,21 @@ export default {
 <style lang="scss" scoped>
 
   .page-header{
-    // display: grid;
-    // grid-template: 60px / auto 1fr;
     display: flex;
-    height:8em;
-    // height:3.75em;
+    height:6em;
     align-items: center;
     justify-content: space-between;
     flex-flow: row-reverse;
     background-color: white;
-    // background-color: #333;
-    // background-image: radial-gradient(#333, rgba(87, 142, 68));
     padding: 0 1em;
+    margin-bottom:6em;
     // position: fixed;
+    // top:0;
     // right: 0;
     // left: 0;
     // z-index: 10;
     
   }
-
-  // .page-header:nth-child{
-  //   justify-self: end !important;
-  // }
 
   .app-links{
     justify-self: end;

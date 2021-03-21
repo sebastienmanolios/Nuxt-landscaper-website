@@ -3,12 +3,7 @@
     <div class="title">
         <h1 class="title__content">Nous aménageons votre quotidien</h1>
     </div>
-    <div>
       <div class="masthead" role="img" aria-label="main image"> </div>
-      <div class="head-title">
-        <h1></h1>  
-      </div>  
-    </div>
   </div>
 </template>
 
@@ -16,8 +11,7 @@
 
 
 .title {
-  height: 8.5em;
-  margin-top: -1.5em !important;
+  height: 9.5em;
 }
 
 .masthead {
@@ -30,10 +24,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.title__content {
-  margin-top: .5em;
 }
 
 @media only screen and (min-width: 800px) {
@@ -51,7 +41,6 @@
 
 .title {
   height: 6em;
-  margin-top: -.5em !important;
 
 }
 

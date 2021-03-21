@@ -43,7 +43,7 @@
     align-items: center;
     justify-content:space-evenly;
     background-color: rgba(87, 142, 68);
-    height: 3.95em;
+    height: 3em;
     // position: fixed;
     // bottom: 0;
     // right: 0;
@@ -91,7 +91,7 @@
     margin-left: -3em;
   }
   .footer {
-    height: 5em;
+    height: 4em;
     justify-content: center;
   }
   .footer__link--logo {

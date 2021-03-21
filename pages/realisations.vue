@@ -10,7 +10,9 @@
       <h3 class="carousel__title">Au milieu de la guarrigue</h3>
       <div class="carousel__project">
         <img class="carousel__project--img" src="img/realisations/garrigue/garrigue1.jpg" alt="">
-        <button class="carousel__project--btn" type="button" @click="showModal">Plus</button>
+        <div class="my-logo">
+          <button class="carousel__project--btn" type="button" @click="showModal">Plus</button>
+        </div>
       </div>
     </section>
 
@@ -64,6 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 
+
 .content-container {
     margin-bottom: 6em;
     text-align: center;
@@ -82,9 +85,13 @@ export default {
 }
 
 .title {
-  height: 12em;
-  font-size:.8em;
+  height: 13em;
+  // font-size:.8em;
+  // &__content{
+  //   margin-top: 0;
+  // }
 }
+
 
 .carousel__title {
   text-decoration: underline;
@@ -136,9 +143,9 @@ export default {
 }
  
  @media only screen and (min-width: 1000px) {
-  .title {
-    font-size: 1em;
-  }
+  // .title {
+  //   font-size: 1em;
+  // }
   .carousel__title {
     font-size: 2.5em;
   }
