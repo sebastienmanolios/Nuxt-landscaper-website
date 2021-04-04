@@ -36,9 +36,8 @@
 <style lang="scss" scoped>
 
 .responsive {
-  width: 95%;
-  max-width: 1000px;
-  height: auto;
+  // max-height: 80vh;
+  // width:auto;
 }
 // .tns-item {
 //   padding: 2em;

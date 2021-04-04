@@ -3,7 +3,8 @@
    <div class="modal-backdrop">
       <div class="modal">
         <header class="modal-header">
-        <Slider src/>
+        <Slider :themeId=themeId>
+        </Slider>
         <button
           type="button"
           class="btn-close"
@@ -20,6 +21,12 @@
 import Slider from '@/components/Slider.vue';
 
 export default {
+  props: {
+    themeId: {
+      type: Number,
+      required: true
+    }
+  },
   components: {
     Slider
   },

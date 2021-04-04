@@ -3,27 +3,21 @@
   <div id="app" class="content-container">
 
     <section class="title">
-      <h1 class="title__content">Nos réalisations - Découvrez-en quelques unes.</h1>
+      <h1 class="title__content">{{ main_title }}</h1>
     </section>
 
-    <section class="carousel">
-      <h3 class="carousel__title">Au milieu de la garrigue</h3>
+    <section class="carousel" v-for="theme in $store.getters.themes" :key="theme.id">
+      <h3 class="carousel__title">{{ theme.title }}</h3>
       <div class="carousel__project">
-        <img class="carousel__project--img" src="img/realisations/garrigue/garrigue1.jpg" alt="">
+        <img class="carousel__project--img" :src="'img/realisations/' + theme.theme + '/' + theme.theme + '1.jpg'" alt="">
         <div>
           <p class="carousel__project--content">Voir toutes les photos du chantier</p>
-          <button class="carousel__project--btn" type="button" @click="showModal1">Voir</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="carousel">
-      <h3 class="carousel__title">Au milieu coule un bassin</h3>
-      <div class="carousel__project">
-        <img class="carousel__project--img" src="img/realisations/bassin/bassin1.jpg" alt="">
-        <div>
-          <p class="carousel__project--content">Voir toutes les photos du chantier</p>
-          <button class="carousel__project--btn" type="button" @click="showModal2">Voir</button>
+          <p ></p>
+          <button class="carousel__project--btn" type="button" 
+            @click="showModal(theme.id)"
+          > 
+          Voir
+          </button>
         </div>
       </div>
     </section>
@@ -32,66 +26,42 @@
 
   <div class="modal-container">
    <Modal
-      v-show="isModalVisible1"
-      @close="closeModal1"
-      :src="image.src"
+      v-show="isModalVisible"
+      @close="closeModal"
+      :themeId=themeId
     >
     </Modal>
   </div>
 
-  <div class="modal-container">
-   <Modal2
-      v-show="isModalVisible2"
-      @close="closeModal2"
-      :src="image.src"
-    >
-    </Modal2>
-
-  </div>
 </main>
 </template>
 
 <script>
 import Modal from '@/components/Modal.vue';
-import Modal2 from '@/components/Modal2.vue';
 
 export default {
   components: {
-    Modal,
-    Modal2
+    Modal
   },
   data() {
       return {
-        image: {
-          src:'img/realisations/garrigue/garrigue8.jpg'
-        },
-        isModalVisible1: false,
-        isModalVisible2: false,
+        themeId: 1,
+        main_title: 'Nos réalisations - Découvrez-en quelques unes.',
+        isModalVisible: false,
       };
     },
   methods: {
-      showModal1() {
+      showModal(id) {
         const contentContainer = document.getElementById('app');
         contentContainer.classList.replace('content-container','blur-content-container');
-        this.isModalVisible1 = true;
+        this.isModalVisible = true;
+        this.themeId = id;
+        console.log('id :: '+id);
       },
-
-      showModal2() {
-        const contentContainer = document.getElementById('app');
-        contentContainer.classList.replace('content-container','blur-content-container');
-        this.isModalVisible2 = true;
-      },
-
-      closeModal1() {
+      closeModal() {
         const blurContentContainer = document.getElementById('app');
         blurContentContainer.classList.replace('blur-content-container','content-container');
-        this.isModalVisible1 = false;
-      },
-
-      closeModal2() {
-        const blurContentContainer = document.getElementById('app');
-        blurContentContainer.classList.replace('blur-content-container','content-container');
-        this.isModalVisible2 = false;
+        this.isModalVisible = false;
       }
   }
 };
@@ -113,16 +83,11 @@ export default {
 }
 
 .modal-container {
-    // margin-bottom: 6em;
     text-align: center;
 }
 
 .title {
   height: 13em;
-  // font-size:.8em;
-  // &__content{
-  //   margin-top: 0;
-  // }
 }
 
 
@@ -131,6 +96,7 @@ export default {
   font-size: 2em;
   padding: 1em 0 1em .5em;
   text-align: left;
+  margin-top: 1.1em;
 }
 
 .carousel__project {
@@ -138,7 +104,8 @@ export default {
 
   flex-wrap: wrap;
   &--img {
-    width:310px
+    width:310px;
+    height:420px;
   }
   &--content {
     font-size: 1em;
