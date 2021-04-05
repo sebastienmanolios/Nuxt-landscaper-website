@@ -11,8 +11,7 @@
       <div class="carousel__project">
         <img class="carousel__project--img" :src="'img/realisations/' + theme.theme + '/' + theme.theme + '1.jpg'" alt="">
         <div>
-          <p class="carousel__project--content">Voir toutes les photos du chantier</p>
-          <p ></p>
+          <div class="carousel__project--content">Voir toutes les photos du chantier</div>
           <button class="carousel__project--btn" type="button" 
             @click="showModal(theme.id)"
           > 
@@ -69,68 +68,65 @@ export default {
 
 <style lang="scss" scoped>
 
-
-.content-container {
+  .content-container {
     margin-bottom: 6em;
     text-align: center;
-}
+  }
 
-.blur-content-container {
+  .blur-content-container {
     margin-bottom: 6em;
     text-align: center;
     filter: blur(3.5px) grayscale(50%);
     transform: scale(0.9);
-}
+  }
 
-.modal-container {
+  .modal-container {
     text-align: center;
-}
-
-.title {
-  height: 13em;
-}
-
-
-.carousel__title {
-  text-decoration: underline;
-  font-size: 2em;
-  padding: 1em 0 1em .5em;
-  text-align: left;
-  margin-top: 1.1em;
-}
-
-.carousel__project {
-  display:flex;
-
-  flex-wrap: wrap;
-  &--img {
-    width:310px;
-    height:420px;
   }
-  &--content {
-    font-size: 1.2em;
-    margin-left: 2em;
-    margin-top: .5em;
-    display: inline-block;
 
+  .title {
+    height: 13em;
   }
-  &--btn {
-    margin-left: 1em;
-    margin-top: 1em;
-    background: #58795a;
-    color:white;
-    font-weight: bold;
-    font-size: 1em;
-    border-radius:1.3em;
-    padding:.3em .8em;
-    border:1px solid #254629;
-    cursor:pointer;
-     &:hover {
-      background-color:#254629;
+
+
+  .carousel__title {
+    text-decoration: underline;
+    font-size: 2em;
+    padding: 1em 0 1em .5em;
+    text-align: left;
+    margin-top: 1.1em;
+  }
+
+  .carousel__project {
+    display:flex;
+    flex-wrap: wrap;
+    &--img {
+      width:310px;
+      margin-left: .6em;
+    }
+    &--content {
+      font-size: 1.2em;
+      margin-left: 2em;
+      margin-top: .5em;
+      display: inline-block;
+
+    }
+    &--btn {
+      margin-left: 1em;
+      margin-top: 1em;
+      background: #58795a;
+      color:white;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius:1.3em;
+      padding:.3em .8em;
+      border:1px solid #254629;
+      cursor:pointer;
+      &:hover {
+        background-color:#254629;
+      }
     }
   }
-}
-
 
 
 @media only screen and (min-width: 450px) {
@@ -139,34 +135,23 @@ export default {
   }
  }
 
-// @media only screen and (min-width: 615px) {
-// .carousel__project {
-//   &--img {
-//     margin-left: 4em;
-//     width:600px
-//   }
-// }
-// }
-
-
-
 @media only screen and (min-width: 700px) {
   .title {
     height: 6em;
   }
   .carousel__project {
-  display:flex;
-  &--img {
-    margin-left: 3em;
-    width:600px
+    display:flex;
+    &--img {
+      margin-left: 3em;
+      width:600px
+    }
+    &--content {
+      font-size: 1.6em;
+      margin-left: 2em;
+      margin-top: .5em;
+      display: inline-block;
+    }
   }
-  &--content {
-    font-size: 1.6em;
-    margin-left: 2em;
-    margin-top: .5em;
-    display: inline-block;
-  }
-}
 }
  
  @media only screen and (min-width: 1200px) {
@@ -176,24 +161,23 @@ export default {
   }
 
   .carousel__project {
-  &--img {
-    margin-left: 3em;
-    width:600px
+    &--img {
+      margin-left: 3em;
+      width:600px
+    }
+    &--content {
+      font-size: 2em;
+      margin-left: 5em;
+      margin-top: 3.5em;
+      display: block;
+    }
+    &--btn {
+      margin-top: 2.5em;
+      font-size: 1.2em;
+      padding:.5em 2em;
+      border:2px solid #254629;
+    }
   }
-  &--content {
-    font-size: 2em;
-    margin-left: 5em;
-    margin-top: 3.5em;
-    display: block;
-  }
-  &--btn {
-    margin-top: 2.5em;
-    font-size: 1.2em;
-    padding:.5em 2em;
-    border:2px solid #254629;
-  }
-
- }
  }
 
 </style>
