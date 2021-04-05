@@ -4,12 +4,12 @@
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <nuxt-link to="">
+          <nuxt-link to="https://www.instagram.com/artdesjardinsmontpellier/">
           <img src="img/footer/instagram.jpg" alt="logo instagram" width=32px>
           </nuxt-link>
         </div>
         <div class="footer__link--content">
-          <nuxt-link to="">
+          <nuxt-link to="https://www.instagram.com/artdesjardinsmontpellier/">
             <span>Instagram</span>
           </nuxt-link>
         </div>
@@ -17,12 +17,12 @@
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <nuxt-link to="">
+          <nuxt-link to="https://www.facebook.com/artdesjardins34/">
           <img src="img/footer/facebook.jpg" alt="logo instagram" width=32px>
           </nuxt-link>
         </div>
         <div class="footer__link--content">
-          <nuxt-link to="">
+          <nuxt-link to="https://www.facebook.com/artdesjardins34/">
             <span>Facebook</span>
           </nuxt-link>
         </div>

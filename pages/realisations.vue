@@ -11,7 +11,7 @@
       <div class="carousel__project">
         <img class="carousel__project--img" :src="'img/realisations/' + theme.theme + '/' + theme.theme + '1.jpg'" alt="">
         <div>
-          <div class="carousel__project--content">Voir toutes les photos du chantier</div>
+          <div class="carousel__project--content">Toutes les photos du chantier</div>
           <button class="carousel__project--btn" type="button" 
             @click="showModal(theme.id)"
           > 
