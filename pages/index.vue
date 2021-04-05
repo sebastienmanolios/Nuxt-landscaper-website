@@ -13,6 +13,10 @@
 
 
 <style lang="scss" scoped>
+  .main-container {
+    width: 98vw;
+  }
+
   .title {
     height: 9.5em;
   }
