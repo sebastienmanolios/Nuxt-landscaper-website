@@ -5,41 +5,39 @@
         <h1 class="title__content">Paysagiste sur la région de l'Hérault depuis plus de 15 ans.</h1>
       </section>
 
-      <section class="container">
-        <div class="article">
+      <section class="article">
 <!-- --------------------------------------------------------------------------- -->
-          <div class="article__item article__image">
-            <img src="img/entreprise/macon1.jpg" alt="masonry image">
-          </div>
-          <div class="article__item article__content">
-            <p>L’entreprise <strong> Art des jardins </strong>se situe sur Montpellier, elle vous accompagne à toutes les étapes de votre aménagement, 
-               un savoir faire sur mesure ainsi qu’une approche en <strong>design végétal.</strong>
-                D’une idée jusqu’aux projets, Art des jardins est à l’écoute de vos envies.
-            </p>
-          </div>
-<!-- --------------------------------------------------------------------------- -->
-          <div class="article__item article__content">
-            <ul>
-              <li>Concevoir vos plans, et croquis d’ambiance</li>
-              <li>Réaliser votre création paysagère  (terrasse, muret, arrosage automatique, bassin, clôture,...)</li>
-              <li>Entretenir votre jardin durant toute l’année.</li>
-            </ul>
-          </div>
-          <div class="article__item article__image">
-            <img src="img/entreprise/macon2.jpg" alt="masonry image">
-          </div>
-<!-- --------------------------------------------------------------------------- -->
-          <div class="article__item article__image">
-            <img src="img/entreprise/macon3.jpg" alt="masonry image">
-          </div>
-          <div class="article__item article__content">
-            <p>Un jardin est un véritable lieu de vie, un espace convivial,
-               il met en valeur votre maison.
-               Nous vous proposons d’exploiter et d’aménager au mieux cet espace et de le transformer en un lieu unique.
-            </p>
-          </div>
-<!-- --------------------------------------------------------------------------- -->
+        <div class="article__item article__image">
+          <img src="img/entreprise/macon1.jpg" alt="masonry image">
         </div>
+        <div class="article__item article__content">
+          <p>L’entreprise <strong> Art des jardins </strong>se situe sur Montpellier, elle vous accompagne à toutes les étapes de votre aménagement, 
+              un savoir faire sur mesure ainsi qu’une approche en <strong>design végétal.</strong>
+              D’une idée jusqu’aux projets, Art des jardins est à l’écoute de vos envies.
+          </p>
+        </div>
+<!-- --------------------------------------------------------------------------- -->
+        <div class="article__item article__content">
+            <p>Concevoir vos <strong>plans</strong>, et <strong>croquis d’ambiance.  </strong>
+            Réaliser votre <strong>création paysagère</strong>  (terrasse, muret, arrosage
+            automatique, bassin, clôture,...)
+            <strong>Entretenir votre jardin</strong> durant toute l’année
+            </p>
+        </div>
+        <div class="article__item article__image">
+          <img src="img/entreprise/macon2.jpg" alt="masonry image">
+        </div>
+<!-- --------------------------------------------------------------------------- -->
+        <div class="article__item article__image">
+          <img src="img/entreprise/macon3.jpg" alt="masonry image">
+        </div>
+        <div class="article__item article__content">
+          <p>Un jardin est un véritable lieu de vie, un espace convivial,
+              il met en valeur votre maison.
+              Nous vous proposons d’<strong>exploiter et d’aménager</strong> au mieux cet espace et de le transformer en un lieu unique.
+          </p>
+        </div>
+<!-- --------------------------------------------------------------------------- -->
       </section>
 
   </main>
@@ -57,18 +55,14 @@
   height: 13em;
 }
 
-.container {
-  margin-top: 2em;
-  margin-bottom: 3em;
-  display: flex;
-  align-items: center;
-}
-
 .article {
+  margin-top: 2em;
+  width:80%;
   display: flex;
-  // flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  text-align: center;
+  margin-left: 1em;
 }
 
 .article > div {
@@ -89,12 +83,12 @@
 
 .article__image {
   img {
-      width: 360px;
+      width: 300px;
   }
 }
 
 .article__content > div {
-  min-width: 360px;
+  min-width: 320px;
   padding-left: 1em;
 }
 
@@ -105,8 +99,8 @@
 
   .article {
     width:90%;
-    margin-left: 2em;
     margin-top: 2em;
+    text-align: center;
   }
 
   .article__image {
@@ -115,7 +109,7 @@
       }
     }
   .article__content { 
-      padding-right: 5em;
+      // padding-right: 5em;
       line-height: 1.5em;
     }
 }
