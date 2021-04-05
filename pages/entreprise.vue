@@ -60,11 +60,13 @@
 .container {
   margin-top: 2em;
   margin-bottom: 3em;
+  display: flex;
+  align-items: center;
 }
 
 .article {
   display: flex;
-  flex-direction: row;
+  // flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
