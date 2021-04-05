@@ -4,34 +4,34 @@
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <nuxt-link to="https://www.instagram.com/artdesjardinsmontpellier/">
+          <a href="https://www.instagram.com/artdesjardinsmontpellier">
           <img src="img/footer/instagram.jpg" alt="logo instagram" width=32px>
-          </nuxt-link>
+          </a>
         </div>
         <div class="footer__link--content">
-          <nuxt-link to="https://www.instagram.com/artdesjardinsmontpellier/">
+          <a href="https://www.instagram.com/artdesjardinsmontpellier">
             <span>Instagram</span>
-          </nuxt-link>
+          </a>
         </div>
       </div>
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <nuxt-link to="https://www.facebook.com/artdesjardins34/">
+          <a href="https://www.facebook.com/artdesjardins34/">
           <img src="img/footer/facebook.jpg" alt="logo instagram" width=32px>
-          </nuxt-link>
+          </a>
         </div>
         <div class="footer__link--content">
-          <nuxt-link to="https://www.facebook.com/artdesjardins34/">
+          <a href="https://www.facebook.com/artdesjardins34/">
             <span>Facebook</span>
-          </nuxt-link>
+          </a>
         </div>
       </div>
 
       <!-- <div class="footer__logo">
-        <nuxt-link  to="/">
+        <a  href="/">
           <img class="logo" src="img/logo.png" width=170px alt="logo">
-        </nuxt-link>
+        </a>
       </div> -->
 
   </footer>
@@ -45,7 +45,7 @@
     background-color: rgba(87, 142, 68);
     height: 3em;
     // position: fixed;
-    // bottom: 0;
+    // bothrefm: 0;
     // right: 0;
     // left: 0;
     // z-index: 10;
@@ -70,7 +70,7 @@
     }
   }
   // .footer__logo {
-  // padding-top: .3em;
+  // padding-hrefp: .3em;
   // }
 
 @media only screen and (min-width: 500px) {
