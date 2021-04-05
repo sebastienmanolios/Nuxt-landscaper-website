@@ -1,11 +1,8 @@
 <template>
   <div>
 
- 
-
     <vue-tiny-slider v-bind="tinySliderOptions" >
       <div v-for="item in number" :key="item">
-        <pre>{{ item }}</pre> 
         <img :src="'img/realisations/' + theme + '/' + theme + item + '.jpg'" 
             class="responsive" alt="">
       </div>
@@ -69,16 +66,8 @@
 
 .responsive {
   max-height: 80vh;
+  max-width: 95vw;
   width:auto;
-
-
 }
-// .tns-item {
-//   padding: 2em;
-//   background: #fafafb;
-// }
-// .tns-item:nth-child(odd) {
-//   background: #c8e1ff;
-// } 
 
 </style>

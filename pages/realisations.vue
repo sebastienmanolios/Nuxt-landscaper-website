@@ -108,7 +108,7 @@ export default {
     height:420px;
   }
   &--content {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: 2em;
     margin-top: .5em;
     display: inline-block;

@@ -3,8 +3,18 @@
    <div class="modal-backdrop">
       <div class="modal">
         <header class="modal-header">
-        <Slider :themeId=themeId>
-        </Slider>
+        <Slider1 v-if="themeId === 1" :themeId=themeId>
+        </Slider1>
+        <Slider2 v-if="themeId === 2" :themeId=themeId>
+        </Slider2>
+        <Slider3 v-if="themeId === 3" :themeId=themeId>
+        </Slider3>
+        <Slider4 v-if="themeId === 4" :themeId=themeId>
+        </Slider4>
+        <Slider5 v-if="themeId === 5" :themeId=themeId>
+        </Slider5>
+        <Slider6 v-if="themeId === 6" :themeId=themeId>
+        </Slider6>
         <button
           type="button"
           class="btn-close"
@@ -18,7 +28,12 @@
 </template>
 
 <script>
-import Slider from '@/components/Slider.vue';
+import Slider1 from '@/components/Slider1.vue';
+import Slider2 from '@/components/Slider2.vue';
+import Slider3 from '@/components/Slider3.vue';
+import Slider4 from '@/components/Slider4.vue';
+import Slider5 from '@/components/Slider5.vue';
+import Slider6 from '@/components/Slider6.vue';
 
 export default {
   props: {
@@ -28,7 +43,12 @@ export default {
     }
   },
   components: {
-    Slider
+    Slider1,
+    Slider2,
+    Slider3,
+    Slider4,
+    Slider5,
+    Slider6
   },
   methods: {
     close() {
