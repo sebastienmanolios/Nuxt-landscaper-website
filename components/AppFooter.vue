@@ -4,12 +4,12 @@
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <a href="https://www.instagram.com/artdesjardinsmontpellier">
+          <a href="https://www.instagram.com/artdesjardinsmontpellier" target="_blank">
           <img src="img/footer/instagram.jpg" alt="logo instagram" width=32px>
           </a>
         </div>
         <div class="footer__link--content">
-          <a href="https://www.instagram.com/artdesjardinsmontpellier">
+          <a href="https://www.instagram.com/artdesjardinsmontpellier" target="_blank">
             <span>Instagram</span>
           </a>
         </div>
@@ -17,12 +17,12 @@
 
       <div class="footer__link">
         <div class="footer__link--logo">
-          <a href="https://www.facebook.com/artdesjardins34/">
+          <a href="https://www.facebook.com/artdesjardins34/" target="_blank">
           <img src="img/footer/facebook.jpg" alt="logo instagram" width=32px>
           </a>
         </div>
         <div class="footer__link--content">
-          <a href="https://www.facebook.com/artdesjardins34/">
+          <a href="https://www.facebook.com/artdesjardins34/" target="_blank">
             <span>Facebook</span>
           </a>
         </div>
