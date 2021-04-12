@@ -62,12 +62,7 @@ export default {
     background-color: white;
     padding: 0 1em;
     margin-bottom:6em;
-    // position: fixed;
-    // top:0;
-    // right: 0;
-    // left: 0;
-    // z-index: 10;
-    
+   
   }
 
   .app-links{
@@ -93,8 +88,6 @@ export default {
     height: 40%;
     width: 3rem;
     padding-right: 1em;
-    // margin-left: 1em;
-    // padding-left: 1em;
     cursor: pointer;
   }
 
@@ -102,7 +95,7 @@ export default {
     display: none;
   }
 
-  @media only screen and (min-width: 1174px) {
+  @media only screen and (min-width: 1176px) {
     .page-header{
       padding: 0 2em;
       flex-flow: row wrap;
