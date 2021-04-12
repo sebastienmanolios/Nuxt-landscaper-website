@@ -9,7 +9,7 @@
     <section class="carousel" v-for="theme in $store.getters.themes" :key="theme.id">
       <h3 class="carousel__title">{{ theme.title }}</h3>
       <div class="carousel__project">
-        <img class="carousel__project--img" :src="'img/realisations/' + theme.theme + '/' + theme.theme + '1.jpg'" alt="">
+        <img class="carousel__project--img" :src="'img/realisations/' + theme.theme + '/' + theme.theme + '1.jpg'" alt="arts des jardins photo">
         <div>
           <div class="carousel__project--content">Toutes les photos du chantier</div>
           <button class="carousel__project--btn" type="button" 

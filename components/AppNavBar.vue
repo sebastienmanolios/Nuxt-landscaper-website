@@ -3,7 +3,7 @@
         <!-- :style="thin ? `height: 8em` : ''" -->
 
     <nuxt-link  to="/">
-      <img class="logo" src="img/logo.png" alt="logo">
+      <img class="logo" src="img/logo.png" alt="logo artdesjardins">
     </nuxt-link>
   
     <div class="drawer-toggle" role="button" @click="$store.dispatch('nav/toggleSidebar')">

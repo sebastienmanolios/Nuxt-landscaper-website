@@ -4,7 +4,7 @@
     <vue-tiny-slider v-bind="tinySliderOptions" >
       <div v-for="item in number" :key="item">
         <img :src="'img/realisations/' + theme + '/' + theme + item + '.jpg'" 
-            class="responsive" alt="">
+            class="responsive" alt="art des jardins photo">
       </div>
     </vue-tiny-slider>
 
@@ -49,16 +49,6 @@
         return this.chosen_theme.theme;
       }
   },
-  created() {
-    console.log('Slider created');
-  },
-  mounted () {
-    console.log('Slider mounted');
-  },
-  unmounted() {
-    console.log('Slider unmounted');
-  }
-    
 }
 </script>
 

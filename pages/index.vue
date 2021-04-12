@@ -4,10 +4,10 @@
         <h1 class="title__content">Nous aménageons votre quotidien</h1>
     </div>
     <div class="mobile-img">
-      <img class="mobile-img__top" src="img/index/verso1.jpg" width=320px alt="">
-      <img class="mobile-img__bottom" src="img/index/verso2.jpg" width=320px alt="">
+      <img class="mobile-img__top" src="img/index/verso1.jpg" width=320px alt="arts des jardins photo description">
+      <img class="mobile-img__bottom" src="img/index/verso2.jpg" width=320px alt="arts des jardins photo description">
     </div>
-    <img class="desktop-img" src="img/index/headerimg.png" alt="">
+    <img class="desktop-img" src="img/index/headerimg.png" alt="arts des jardins photo description">
   </main>
 </template>
 

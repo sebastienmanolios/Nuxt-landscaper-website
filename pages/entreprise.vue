@@ -8,7 +8,7 @@
       <section class="article">
 <!-- --------------------------------------------------------------------------- -->
         <div class="article__item article__image">
-          <img src="img/entreprise/macon1.jpg" alt="masonry image">
+          <img src="img/entreprise/macon1.jpg" alt="art des jardins photo maconnerie">
         </div>
         <div class="article__item article__content">
           <p>
@@ -28,11 +28,11 @@
           </p>
         </div>
         <div class="article__item article__image">
-          <img src="img/entreprise/macon2.jpg" alt="masonry image">
+          <img src="img/entreprise/macon2.jpg" alt="art des jardins photo maconnerie">
         </div>
 <!-- --------------------------------------------------------------------------- -->
         <div class="article__item article__image">
-          <img src="img/entreprise/macon3.jpg" alt="masonry image">
+          <img src="img/entreprise/macon3.jpg" alt="art des jardins photo maconnerie">
         </div>
         <div class="article__item article__content">
           <p>

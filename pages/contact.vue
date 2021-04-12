@@ -4,7 +4,7 @@
         <h1 class="title__content">Contactez-moi</h1>
       </section>
       <section class="contact-container">
-        <img src="img/contact/contact.jpg" alt="contact image" width=320px>        
+        <img src="img/contact/contact.jpg" alt="art des jardins photo" width=320px height=427px>        
         <form class="form" target="_blank" action="https://formsubmit.co/sebastien.manolios@gmail.com" method="POST">
           <div>
             <div class="form__col">
