@@ -4,7 +4,7 @@
         <h1 class="title__content">Contactez-moi</h1>
       </section>
       <section class="contact-container">
-        <img src="img/contact/contact.jpg" alt="art des jardins photo" width=320px height=427px>        
+        <img src="img/contact/contact.jpg" alt="art des jardins photo">        
         <form class="form" target="_blank" action="https://formsubmit.co/sebastien.manolios@gmail.com" method="POST">
           <div>
             <div class="form__col">
@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
     img {
+      width: 300px;
       margin-bottom: 2em;
     }
   }
@@ -110,7 +111,11 @@
  
 @media only screen and (min-width: 565px) {
   .contact-container {
-        justify-content: space-evenly;
+    justify-content: space-evenly;
+    img {
+      width: 450px;
+    }
+        
   }
 }
 
@@ -119,7 +124,7 @@
     flex-wrap: nowrap;
     align-items: center;
     img {
-      width:650px;
+       width:650px;
     }
   }
 }
