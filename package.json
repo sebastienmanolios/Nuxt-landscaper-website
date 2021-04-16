@@ -18,5 +18,7 @@
     "vue-tiny-slider": "^0.1.39",
     "vue2-transitions": "^0.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0"
+  }
 }
