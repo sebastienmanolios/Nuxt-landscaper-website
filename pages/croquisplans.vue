@@ -44,9 +44,21 @@
 </template>
 
 <script>
-    export default {
-        
+export default {
+head() { 
+    return {
+    title: 'Croquis & Plans', 
+    meta: [
+        {
+        hid: 'description',  
+        name: 'description', 
+        content:
+            'Voici quelques croquis et plans afin de vous montrer le travail effectué en amont'
+        }
+    ]   
     }
+}
+}
 </script>
 
 <style lang="scss" scoped>

@@ -39,6 +39,19 @@
 import Modal from '@/components/Modal.vue';
 
 export default {
+  head() { 
+    return {
+      title: 'Réalisations', 
+      meta: [
+        {
+        hid: 'description',  
+        name: 'description', 
+        content:
+            'Voici quelques réalisations illustrées'
+        }
+        ]   
+    }
+  },
   components: {
     Modal
   },

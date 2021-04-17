@@ -49,9 +49,21 @@
 </template>
 
 <script>
-  export default {
-    
+export default {
+  head() { 
+    return {
+      title: 'Entreprise', 
+      meta: [
+        {
+          hid: 'description',  
+          name: 'description', 
+          content:
+            'Vous pouvez trouver des infos entreprise, qui nous sommes et comment nous travaillons'
+        }
+      ]
+    }
   }
+}
 </script>
 
 <style lang="scss" scoped>

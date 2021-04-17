@@ -25,6 +25,19 @@ import AppFooter from '@/components/AppFooter.vue';
 import { FadeTransition } from 'vue2-transitions';
 
 export default {
+   head() { 
+    return {
+      titleTemplate: '%s - art des jardins', 
+      meta: [
+        {
+          hid: 'description',  
+          name: 'description', 
+          content:
+            'Logo entreprise et détails des prestations'
+        }
+      ]
+    }
+  },
   components: {
     AppFooter,
     AppNavAside,

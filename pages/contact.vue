@@ -24,6 +24,24 @@
   </main>
 </template>
 
+<script>
+export default {
+  head() { 
+    return {
+      title: 'Contact', 
+      meta: [
+        {
+          hid: 'description',  
+          name: 'description', 
+          content:
+            'Vous pouvez me contactez par email'
+        }
+      ]
+    }
+  }
+}
+</script>
+
 
 <style lang="scss" scoped>
 
