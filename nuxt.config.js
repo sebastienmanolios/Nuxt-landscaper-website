@@ -12,7 +12,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Artisan paysagiste dans la région montpéllieraine' },
+      { hid: 'og:type', name: 'og:type', content: 'site internet' },
+      { hid: 'og:url', name: 'og:url', content: 'https://www.artsdesjardins.com' },
+      { hid: 'og:title', name: 'og:title', content: 'Paysagiste à Montpellier' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Art des jardins' },
+      { hid: 'og:locale', name: 'og:locale', content: 'fr' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -34,7 +39,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/google-analytics'
   ],
+
+  googleAnalytics: {
+      id: 'UA-XXX-X'
+  },
 
   optimizedImages: {
     optimizeImages: true
@@ -42,7 +52,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    
+    '@nuxtjs/robots',    
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

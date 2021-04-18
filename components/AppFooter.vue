@@ -5,7 +5,7 @@
       <div class="footer__link">
         <div class="footer__link--logo">
           <a href="https://www.instagram.com/artdesjardinsmontpellier" rel="noopener" target="_blank">
-          <img src="img/footer/instagram.jpg" alt="logo instagram" width=32px>
+          <img src="img/footer/instagram.jpg" alt="logo instagram">
           </a>
         </div>
         <div class="footer__link--content">
@@ -18,7 +18,7 @@
       <div class="footer__link">
         <div class="footer__link--logo">
           <a href="https://www.facebook.com/artdesjardins34/" rel="noopener" target="_blank">
-          <img src="img/footer/facebook.jpg" alt="logo instagram" width=32px>
+          <img src="img/footer/facebook.jpg" alt="logo instagram">
           </a>
         </div>
         <div class="footer__link--content">
@@ -27,12 +27,6 @@
           </a>
         </div>
       </div>
-
-      <!-- <div class="footer__logo">
-        <a  href="/">
-          <img class="logo" src="img/logo.png" width=170px alt="logo">
-        </a>
-      </div> -->
 
   </footer>
 </template>
@@ -44,11 +38,6 @@
     justify-content:space-evenly;
     background-color: rgba(87, 142, 68);
     height: 3em;
-    // position: fixed;
-    // bothrefm: 0;
-    // right: 0;
-    // left: 0;
-    // z-index: 10;
   }
 
   .footer__link {
@@ -69,9 +58,6 @@
        color:black;
     }
   }
-  // .footer__logo {
-  // padding-hrefp: .3em;
-  // }
 
 @media only screen and (min-width: 500px) {
   .footer__content {
@@ -98,9 +84,5 @@
     margin-left:1em;
   }
 }
- 
-    
-    
-
   
 </style>
