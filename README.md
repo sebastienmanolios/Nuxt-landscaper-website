@@ -1,5 +1,8 @@
 # nuxt-landscaper-website
 
+This showcase site is developped in Nuxt.
+You can visit it in clicking on the link above.
+
 ## Build Setup
 
 ```bash
