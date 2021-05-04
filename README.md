@@ -1,8 +1,10 @@
 # nuxt-landscaper-website
 
-In construction 
+This showcase site is developped in Nuxt and is IN CONSTRUCTION  
+- Factorization has to be made
+- SEO has to be continued ...
 
-### Some improvments has to be made
+You can visit it in clicking on the link above.
 
 ## Build Setup
 
