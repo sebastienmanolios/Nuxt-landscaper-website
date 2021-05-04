@@ -1,5 +1,9 @@
 # nuxt-landscaper-website
 
+In construction 
+
+### Some improvments has to be made
+
 ## Build Setup
 
 ```bash
