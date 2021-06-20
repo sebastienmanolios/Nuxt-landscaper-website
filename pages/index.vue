@@ -7,7 +7,8 @@
       <img class="mobile-img__top" src="img/index/verso1.jpg" width=320px alt="art des jardins photo description">
       <img class="mobile-img__bottom" src="img/index/verso2.jpg" width=320px alt="art des jardins photo description">
     </div>
-    <img class="desktop-img" src="img/index/headerimg.png" alt="art des jardins photo description">
+    <!-- <img class="desktop-img" src="img/index/headerimg.png" alt="art des jardins photo description"> -->
+    <img class="desktop-img" src="img/index/index.jpg" alt="art des jardins photo description">
   </main>
 </template>
 

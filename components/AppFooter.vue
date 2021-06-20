@@ -36,8 +36,6 @@
           <span>06 52 37 52 39</span>
         </div>
       </div>
-      <!-- <span class="footer__content2"><strong>06 52 37 52 39</strong></span> -->
-
   </footer>
 </template>
 
@@ -72,10 +70,6 @@
   .footer__link--content--name {
     display:none;
   }
-
-  // .footer__link--logo--phone {
-  //   display: none;
-  // }
 
   .footer__content2 {
     margin-left: .5em;
@@ -123,6 +117,9 @@
   .footer__content2 {
     font-size: 1.6em;
     margin-left: .5em;
+  }
+  .footer__link--logo--phone {
+    margin-left: 5.5em;
   }
 }
   
