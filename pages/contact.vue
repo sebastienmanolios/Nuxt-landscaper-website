@@ -5,7 +5,7 @@
       </section>
       <section class="contact-container">
         <img src="img/contact/contact.jpg" alt="art des jardins photo">        
-        <form class="form" target="_blank" action="https://formsubmit.co/sebastien.manolios@gmail.com" method="POST">
+        <form class="form" target="_blank" action="https://formsubmit.co/artdesjardins@outlook.fr" method="POST">
           <div>
             <div class="form__col">
                 <input type="text" name="prenom" class="form__control" placeholder="prénom" required>

@@ -15,7 +15,15 @@
 export default {
   head() { 
     return {
-      title: 'Accueil', 
+      title: 'Accueil paysagiste montpellier herault', 
+      meta: [
+        {
+        hid: 'description',  
+        name: 'description', 
+        content:
+            'taille de haie terrasse bois'
+        }
+        ]   
     }
   }
 }
