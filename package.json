@@ -12,6 +12,7 @@
     "@nuxtjs/robots": "^2.5.0",
     "core-js": "^3.9.1",
     "is-svg": "4.2.2",
+    "normalize-url": "^6.1.0",
     "nuxt": "^2.15.3",
     "sass": "^1.32.8",
     "sass-loader": "10.1.1",
