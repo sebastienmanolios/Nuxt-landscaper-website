@@ -44,9 +44,9 @@ export default {
     '@nuxtjs/google-analytics'
   ],
 
-  googleAnalytics: {
-      id: 'UA-XXX-X'
-  },
+  // googleAnalytics: {
+  //     id: 'UA-XXX-X'
+  // },
 
   optimizedImages: {
     optimizeImages: true
