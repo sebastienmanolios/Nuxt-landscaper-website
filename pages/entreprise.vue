@@ -12,7 +12,7 @@
         </div>
         <div class="article__item article__content">
           <p>
-            L’entreprise <strong> Art des jardins </strong>se situe sur Montpellier,
+            L’ entreprise <strong> Art des jardins </strong>se situe sur Montpellier,
             elle vous accompagne à toutes les étapes de votre aménagement, un savoir faire sur mesure 
             ainsi qu’une approche en <strong>design végétal.</strong><br>
             D’une idée jusqu’aux projets, Art des jardins est à l’écoute de vos envies.

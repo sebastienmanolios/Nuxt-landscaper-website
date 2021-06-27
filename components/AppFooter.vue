@@ -73,7 +73,7 @@
 
   .footer__content2 {
     margin-left: .5em;
-
+    font-style: italic;
     font-size: 1.2em;
   }
 
@@ -82,6 +82,7 @@
     color:black;
     font-size: 2em;
     display: inline;
+    font-style: italic;
     }
   .footer__link--content {
     font-size: 1.4em;

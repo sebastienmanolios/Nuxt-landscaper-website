@@ -17,7 +17,9 @@ export default {
       { hid: 'og:url', name: 'og:url', content: 'https://www.artsdesjardins.com' },
       { hid: 'og:title', name: 'og:title', content: 'Paysagiste à Montpellier' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Art des jardins' },
-      { hid: 'og:locale', name: 'og:locale', content: 'fr' }
+      { hid: 'og:locale', name: 'og:locale', content: 'fr' },
+      { hid: 'keywords', name: 'keywords', content: 'paysagiste, montpellier, jardinier, création jardin, aménagement jardin, pelouse, taille de haies, terrasse bois, gazon synthétique, bassin, débrouissaillage, arbre, plante, dessin croquis, espace vert, taille olivier, bassin' }
+              
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
