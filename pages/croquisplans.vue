@@ -121,6 +121,7 @@ head() {
   .article-second__contentbis {
     margin-left: 3em;
     margin-bottom: 3em;
+    font-size: 1.3em;
   }
 
   .article-second__img {
